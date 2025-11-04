@@ -1,11 +1,9 @@
 #let format_strane = "iso-b5"         // могуће вредности: iso-b5, a4
-// TODO: променити назив рада
-#let naslov = "Шаблон и упутство за писање завршних радова"
+#let naslov = "CLI алат за аутоматизовано креирање локалних развојних окружења"
 #let autor = "Раде Пејановић"
 
 // На енглеском
-// TODO: променити назив рада
-#let naslov_eng = "Template and tutorial for thesis preparation"
+#let naslov_eng = "CLI tool for automated creation of local development environments"
 #let autor_eng = "Rade Pejanović"
 
 #let indeks = "SV10/2021"
