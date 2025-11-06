@@ -1,4 +1,5 @@
 #let format_strane = "iso-b5"         // могуће вредности: iso-b5, a4
+// #let format_strane = "a4"         // могуће вредности: iso-b5, a4
 #let naslov = "CLI алат за аутоматизовано креирање локалних развојних окружења"
 #let autor = "Раде Пејановић"
 
