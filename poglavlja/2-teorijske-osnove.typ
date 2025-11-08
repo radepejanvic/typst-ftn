@@ -17,13 +17,28 @@
 
 Постоје две врсте хипервизора. Tип 1 (_native_, _bare-metal_) на слици #link(<fig:hipervizor-1>)[1], инсталира  се директно на хардвер уместо оперативног система. Ресурси виртуелних машина директно се мапирају на хардвер. Овај тип је популаран у ентерпрајз окружењима и серверским системима. Тип 2 (_hosted_) на слици #link(<fig:hipervizor-2>)[2], инсталира се као апликација на постојећи _host_ оперативни систем. Ресурси и инструкције виртуелних машина најпре се мапирају на _host_ оперативни систем који их потом прослеђује хардверу @redhat_virtualization @aws_virtualization.  
 
-#figure(image("../slike/hipervizor-tip-1.svg", width: 70%),
+// #link(<fig:hipervizori>)[2]
+
+// #figure(
+//     grid(
+//         columns: 2,
+//         align: horizon,
+//         image("../slike/hipervizor-tip-1.svg", width: 90%),
+//         image("../slike/hipervizor-tip-2.svg", width: 90%)
+//     ),
+//     caption: [
+//         Типови хипервизора: лево – тип 1 (_native_, _bare-metal_); десно – тип 2 (_hosted_).
+//     ]
+// )<fig:hipervizori>
+
+
+#figure(image("../slike/hipervizor-tip-1.svg", width: 50%),
 caption: [
     Хипервизор тип 1 (_native_, _bare-metal_).
 ]
 )<fig:hipervizor-1>
 
-#figure(image("../slike/hipervizor-tip-2.svg", width: 70%),
+#figure(image("../slike/hipervizor-tip-2.svg", width: 50%),
 caption: [
     Хипервизор тип 2 (_hosted_).
 ]
