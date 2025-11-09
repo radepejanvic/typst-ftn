@@ -1,10 +1,10 @@
 #let format_strane = "iso-b5"         // могуће вредности: iso-b5, a4
 // #let format_strane = "a4"         // могуће вредности: iso-b5, a4
-#let naslov = "CLI алат за аутоматизовано креирање локалних развојних окружења"
+#let naslov = "CLI алат за аутоматизовано креирање тестних окружења за платформу дистрибуираног рачунарства у облаку"
 #let autor = "Раде Пејановић"
 
 // На енглеском
-#let naslov_eng = "CLI tool for automated creation of local development environments"
+#let naslov_eng = "CLI tool for automated creation of test environments for distributed cloud computing platform"
 #let autor_eng = "Rade Pejanović"
 
 #let indeks = "SV10/2021"
