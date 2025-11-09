@@ -1,26 +1,28 @@
 #let format_strane = "iso-b5"         // могуће вредности: iso-b5, a4
-#let naslov = "Шаблон и упутство за писање завршних радова"
-#let autor = "Уписати име и презиме"
+// #let format_strane = "a4"         // могуће вредности: iso-b5, a4
+#let naslov = "CLI алат за аутоматизовано креирање локалних развојних окружења"
+#let autor = "Раде Пејановић"
 
 // На енглеском
-#let naslov_eng = "Template and tutorial for thesis preparation"
-#let autor_eng = "Upisati ime i prezime na latinici"
+#let naslov_eng = "CLI tool for automated creation of local development environments"
+#let autor_eng = "Rade Pejanović"
 
-#let indeks = "Уписати индекс"
+#let indeks = "SV10/2021"
 
 // Име и презиме ментора
-#let mentor = "Игор Дејановић"
+#let mentor = "Милош Симић"
 // Звање: редовни професор, ванредни професор, доцент
-#let mentor_zvanje = "редовни професор"
+#let mentor_zvanje = "доцент"
 
 // Скинути коментаре са одговарајућих линија
 #let studijski_program = "Софтверско инжењерство и информационе технологије"
 //#let studijski_program = "Рачунарство и аутоматика"
-#let stepen = "Мастер академске студије"
-//#let stepen = "Основне академске студије"
+// #let stepen = "Мастер академске студије"
+#let stepen = "Основне академске студије"
 
 #let godina = [#datetime.today().year()]
 
+// TODO: променити апстракт
 #let kljucne_reci = "Шаблон, завршни рад, упутство"
 #let apstrakt = [
      Овај документ представља упутство за писање завршних радова на Факултету
@@ -28,6 +30,7 @@
 ]
 
 // На енглеском
+// TODO: променити апстракт
 #let kljucne_reci_eng = "Template, thesis, tutorial"
 #let apstrakt_eng = [
      This document provides guidelines for writing final theses at the Faculty
