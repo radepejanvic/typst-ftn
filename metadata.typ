@@ -25,17 +25,15 @@
 // TODO: променити апстракт
 #let kljucne_reci = "виртуелизација, инфраструктура као код, аутоматизација, развојно окружење, Vagrant, Go, CLI алат"
 #let apstrakt = [
-  Овај документ представља упутство за писање завршних радова на Факултету
-  техничких наука Универзитета у Новом Саду. У исто време је и шаблон за Typst.
+  Oвај рад приказује развој алата командне линије за аутоматизовано креирање тестних окружења за платформу дистрибуираног рачунарства у облаку отвореног кода. Развијено решење омогућава једноставно покретање више виртуелних машина на једној _host_ машини, са свим неопходним сервисима и зависностима, без потребе за ручном конфигурацијом. Рад обухвата дизајн архитектуре система засноване на модуларном приступу, имплементацију CLI алата, управљање животним циклусом виртуелних машина помоћу _Vagrant_-а, као и аутоматизовано подизање и конфигурацију _control plane_-а. Добијено решење значајно олакшава креирање тестних окружења, повећава ефикасност развоја и омогућава лаку проширивост и прилагођавање будућим потребама.
 ]
 
 // На енглеском
 // TODO: променити апстракт
-#let kljucne_reci_eng = "Template, thesis, tutorial"
+#let kljucne_reci_eng = "virtualization, infrastructure as code, automation, development environment, Vagrant, Go, CLI tool
+"
 #let apstrakt_eng = [
-  This document provides guidelines for writing final theses at the Faculty
-  of Technical Sciences, University of Novi Sad. At the same time, it serves
-  as a Typst template.
+  Implement a command-line tool for the automated creation of test environments for an open-source distributed cloud computing platform. The focus should be on a simple mechanism to set up test environments on a single machine using virtual machines.
 ]
 
 // TODO: Текст задатка добијате од ментора. Заменити доле #lorem(100) са текстом задатка.
@@ -43,7 +41,7 @@
   Имплементирати алат командне линије за аутоматизовано креирање тестних
   окружења за платформу дистрибуираног рачунарства у облаку отвореног кода.
   Акценат треба да буде на једноставном механизма за креирање тестних
-  окружења на једном рачунару, употребом виртуалних машина.
+  окружења на једном рачунару, употребом виртуeлних машина.
 ]
 
 // TODO: Датум одбране и чланове комисије добијате од ментора
